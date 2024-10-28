@@ -16,6 +16,6 @@ sed -i '$a src-git openwrt_small-package https://github.com/kenzok8/small-packag
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/vernesong/OpenClash' >>feeds.conf.default
-echo 'src-git prplmesh https://github.com/prplfoundation/prplMesh-openwrt.git' >>feeds.conf.default
+
 
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
