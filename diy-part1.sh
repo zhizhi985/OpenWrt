@@ -12,7 +12,7 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-sed -i '$a src-git openwrt_small-package https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '$a src-git openwrt_small-package https://github.com/kenzok8/small-package' >>feeds.conf.default
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/vernesong/OpenClash' >>feeds.conf.default
